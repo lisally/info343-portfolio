@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+
+    <!-- Add ui-router library here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    
+    <!-- Custom code -->
+    <script src="js/main.js"></script>
+    <link href = "css/main.css" rel="stylesheet" type = "text/css"/>
+    
+  </head>
+
+  <body>
+    <div>
+      <header>
+        <!-- Create links to different sections -->
+          <div class="container-fluid" id="banner">
+          </div>
+        <nav class="navbar navbar-default">
+            <a class="links" ui-sref="home">HOME</a>
+            <a class="links" ui-sref="dawg-coffee">DAWG COFFEE</a>
+            <a class="links" ui-sref="police-shooting">POLICE SHOOTING</a>
+            <a class="links" ui-sref="crud-review">CRUD REVIEWER</a>
+            <a class="links" ui-sref="spotify-challenge">SPOTIFY SAMPLER</a>
+        </nav>
+
+      </header>
+
+      <div class="container">
+        <!-- This is where your content will display -->
+        <div ui-view></div>
+      </div>
+
+    </div>
+  </body>
+</html>

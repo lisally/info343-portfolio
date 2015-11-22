@@ -1,0 +1,18 @@
+<!-- home -->
+<h1 class="pageTitle">{{homeTitle}} </h1>
+<p class="pageDescription">{{homeDescription}}</p>
+<div>
+	<table class="table table-striped">
+		<tr>
+		<th>Challenge</th>
+		<th>Date Completed</th>
+		<th>Original Instructions</th>	
+		</tr>
+		<tr ng-repeat="challenge in data2">
+			<td>{{challenge.Challenge}}</td>
+			<td>{{challenge.Date}}</td>
+			<td><a ng-href="{{challenge.Link}}" target="_blank">Link</a></td>
+			<!-- <td>{{challenge.Link}}</td> -->
+		</tr>
+	</table>
+</div>
