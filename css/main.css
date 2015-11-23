@@ -1,7 +1,5 @@
-/*index.html*/
 body {	
 	font-family: "Lato", 'Helvetica Neue', Helvetica, Sans-serif;
-	/*background-color: #E3DEC1;*/
 }
 
 header {
@@ -29,12 +27,6 @@ h1 {
 	
 }
 
-/*.table.table-striped {
-	border-style: solid;
-	border-width: px;
-	border-color: #39275b;
-}
-*/
 table a {
 	color: #39275b;
 }
@@ -63,6 +55,20 @@ iframe {
  	height: 350px;
 }
 
+#email {
+	color: #39275b;
+}
+
+#email:hover{
+	text-decoration: none;
+	color: #d1a705;
+}
+
+.btn.btn-primary {
+	background-color: #d1a705;
+	border-color: #d1a705;
+}
+
 @media screen and (min-width: 768px) {
 	#banner{
 		background-image: url(../img/banner.jpg);
@@ -71,7 +77,6 @@ iframe {
 		min-height: 163px;
 	}
 
-	/*index.html*/
 	h1 {
 		font-size: 30px;
 	}
@@ -81,7 +86,6 @@ iframe {
 		padding-top: 10px
 	}
 
-	/*all pages*/
 	p {
 		font-size: 16px;
 	}
@@ -90,16 +94,5 @@ iframe {
 		width: 100%;
 		height: 700px;
 	}
-
-	/*dawg-coffee.html*/
-
-
-	/*police-shooting.html*/
-
-
-	/*crud-review.html*/
-
-
-	/*spotify-challenge.html*/
 
 }	

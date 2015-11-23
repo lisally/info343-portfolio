@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Personal Portfolio</title>
     
-    <!-- Libraries -->
+    <!-- Libraries JQuery, Bootstrap, Ajax, Firebase, Angular firebase -->
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
 
     <!-- Add ui-router library here -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
-    
+
     <!-- Custom code -->
     <script src="js/main.js"></script>
     <link href = "css/main.css" rel="stylesheet" type = "text/css"/>
@@ -24,24 +26,25 @@
   <body>
     <div>
       <header>
-        <!-- Create links to different sections -->
           <div class="container-fluid" id="banner">
           </div>
+
+        <!--  Navigation bar links -->
         <nav class="navbar navbar-default">
             <a class="links" ui-sref="home">HOME</a>
             <a class="links" ui-sref="dawg-coffee">DAWG COFFEE</a>
             <a class="links" ui-sref="police-shooting">POLICE SHOOTING</a>
             <a class="links" ui-sref="crud-review">CRUD REVIEWER</a>
             <a class="links" ui-sref="spotify-challenge">SPOTIFY SAMPLER</a>
+            <a class="links" ui-sref="contact">CONTACT</a>
         </nav>
-
       </header>
 
       <div class="container">
-        <!-- This is where your content will display -->
+        <!-- This is where the content will display -->
         <div ui-view></div>
       </div>
-
+    
     </div>
   </body>
 </html>
