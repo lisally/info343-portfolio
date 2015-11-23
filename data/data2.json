@@ -1,5 +1,5 @@
-[{"Challenge":"Dawg Coffee Homepage with Core HTML and CSS Concepts","Date":"10/12/15","Link":"http://faculty.washington.edu/mikefree/info343/#/challenges/responsive"},
-{"Challenge":"Mapping Police Shootings with Leaflet.js","Date":"10/19/15","Link":"http://faculty.washington.edu/mikefree/info343/#/challenges/map-challenge"},
-{"Challenge":"Build a CRUD Web Appplication","Date":"10/28/15","Link":"http://faculty.washington.edu/mikefree/info343/#/challenges/crud"},
-{"Challenge":"Spotify Challenge","Date":"11/09/15","Link":"http://faculty.washington.edu/mikefree/info343/#/challenges/spotify"},
-{"Challenge":"Personal Portfolio","Date":"11/23/15","Link":"http://faculty.washington.edu/mikefree/info343/#/a/challenges/portfolio"}]
+[{"Challenge":"Dawg Coffee Homepage with Core HTML and CSS Concepts","Date":"10/12/15", "ChallengeLink":"http://students.washington.edu/lisally/info343/dawg-coffee/", "Link":"http://faculty.washington.edu/mikefree/info343/#/challenges/responsive"},
+{"Challenge":"Mapping Police Shootings with Leaflet.js","Date":"10/19/15", "ChallengeLink":"http://students.washington.edu/lisally/info343/police-shooting/", "Link":"http://faculty.washington.edu/mikefree/info343/#/challenges/map-challenge"},
+{"Challenge":"Build a CRUD Web Appplication","Date":"10/28/15", "ChallengeLink":"http://students.washington.edu/lisally/info343/crud-review/", "Link":"http://faculty.washington.edu/mikefree/info343/#/challenges/crud"},
+{"Challenge":"Spotify Challenge","Date":"11/09/15", "ChallengeLink":"http://students.washington.edu/lisally/info343/spotify-challenge/", "Link":"http://faculty.washington.edu/mikefree/info343/#/challenges/spotify"},
+{"Challenge":"Personal Portfolio","Date":"11/23/15", "ChallengeLink":"http://students.washington.edu/lisally/info343/personal-portfolio/", "Link":"http://faculty.washington.edu/mikefree/info343/#/a/challenges/portfolio"}]

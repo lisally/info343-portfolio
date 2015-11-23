@@ -9,7 +9,7 @@
 		<th>Original Instructions</th>	
 		</tr>
 		<tr ng-repeat="challenge in data2">
-			<td>{{challenge.Challenge}}</td>
+			<td><a ng-href="{{challenge.ChallengeLink}}" target="_blank">{{challenge.Challenge}}</a></td>
 			<td>{{challenge.Date}}</td>
 			<td><a ng-href="{{challenge.Link}}" target="_blank">Link</a></td>
 		</tr>
